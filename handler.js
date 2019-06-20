@@ -17,6 +17,18 @@ function validate(body){
 }
 
 
+/*  
+
+Request Data:
+
+    from        (required)
+    to          (required)
+    subject     (required)
+    body        (required)
+    replyTo     (optional)
+    base64      (optional)
+*/
+
 module.exports.send = (event, context, callback) => {
 
     try {
