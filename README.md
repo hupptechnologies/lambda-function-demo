@@ -7,9 +7,9 @@ npm install -g serverless
 ```
 
 ### Configuration
-```
-Create `configurations.yml` at project root folder. For reference you can use `example.configurations.yml`
-```
+
+1. Create `configurations.yml` at project root folder. For reference you can use `example.configurations.yml`
+
 
 #### Project Setup
 ```
