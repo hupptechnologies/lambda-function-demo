@@ -1,0 +1,9 @@
+# SMTP configuration
+email_host: <smtp-host-here>
+email_port: <port>
+email_ssl: <boolean>
+email_user: <smtp-user-here>
+email_password: <smtp-password-here>
+
+# Whitelist domains (Listed domains can send email using implemented lambda function )
+domain: https://facebook.com,https://testing.com,https://google.com

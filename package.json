@@ -1,0 +1,25 @@
+{
+  "name": "static-site-email-sending",
+  "version": "1.0.0",
+  "description": "Send emails for some static websites",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serverless offline start --host 0.0.0.0 --port 3001"
+  },
+  "keywords": [
+    "serverless",
+    "lambda",
+    "nodejs",
+    "smtp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hupptech/http_response": "^1.0.0",
+    "nodemailer": "^4.6.7"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.25.6"
+  }
+}
